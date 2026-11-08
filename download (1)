@@ -1,0 +1,14 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+
+# Data: ignored by default because the experimental table may be unpublished.
+# Remove these two lines ONLY if you are allowed to make the data public.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
